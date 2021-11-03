@@ -1,0 +1,19 @@
+.Nav ul li{
+  display: inline-block;
+  margin: 50px;
+}
+.cards{
+width: 95%;
+margin:auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.card {
+  width: 30%;
+  border: 2px solid black;
+}
+.card img {
+  height: 100%;
+  width: 400px;
+}
