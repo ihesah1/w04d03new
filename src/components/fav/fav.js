@@ -18,9 +18,7 @@ export default function fav() {
     } else {
       setFavCards(favCities);
     }
-  };
-
-  return (
+  };  return (
     <>
       <Options searchCards={searchCards} />
       <div className="cardsWrapper">
